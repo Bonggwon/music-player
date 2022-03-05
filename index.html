@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="column">
+      <ul class="top-icons">
+        <li class="nav-btn">
+          <a href="#"><i class="fas fa-arrow-left fa-lg"></i></a>
+        </li>
+        <li class="nav-btn">
+          <a href="#"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+      </ul>
+
+      <div class="main-screen">
+        <img src="https://github.com/Bonggwon/images/blob/main/img/sunhee_sing.PNG?raw=true" alt="Sunhee Sing Photo" class="main-screen_photo">
+        <div class="main__title">
+          <span>이선희</span>
+          <span>가요, 발라드</span>
+        </div>
+        <div class="main-screen__info">
+          <div class="main-screen__info-shuffle">
+            Shuffle
+          </div>
+          <div class="main-screen__info-heart">
+            <i class="fa-solid fa-heart"></i>
+            <span>212 971</span>
+          </div>
+        </div>
+      </div>
+      <div class="play-list">
+        <div class="play-list__song">
+          <img src="https://github.com/Bonggwon/images/blob/main/img/list_1.PNG?raw=true" class="play-list__img">
+          <span class="play-list__text">그중에 그대를 만나</span>
+          <i class="fas fa-ellipsis-v fa-lg"></i>
+        </div>
+        <div class="play-list__song">
+          <img src="https://github.com/Bonggwon/images/blob/main/img/list_2.PNG?raw=true" class="play-list__img">
+          <span class="play-list__text">그대가 나를 사랑한다면</span>
+          <i class="fas fa-ellipsis-v fa-lg"></i>
+        </div>
+        <div class="play-list__song">
+          <img src="https://github.com/Bonggwon/images/blob/main/img/list_3.PNG?raw=true" class="play-list__img">
+          <span class="play-list__text">라일락이 질때</span>
+          <i class="fas fa-ellipsis-v fa-lg"></i>
+        </div>
+        <div class="play-list__song">
+          <img src="https://github.com/Bonggwon/images/blob/main/img/list_4.PNG?raw=true" class="play-list__img">
+          <span class="play-list__text">알고 싶어요</span>
+          <i class="fas fa-ellipsis-v fa-lg"></i>
+        </div>
+      </div>
+
+      <div class="player">
+        <div class="player__title">
+          <span>이선희</span>
+          <span>그대가 나를 사랑한다면</span>
+        </div>
+        <div class="player-btns">
+          <a href="#" class="player-btns__back"><i class="fa-solid fa-backward-step"></i></a>
+          <a href="#" class="player-btns__pause"><i class="fa-solid fa-pause"></i></a>
+          <a href="#" class="player-btns__forward"><i class="fa-solid fa-forward-step"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Second Column -->
+    <div class="column">
+      <ul class="top-icons">
+        <li class="nav-btn">
+          <a href="#"><i class="fas fa-arrow-left fa-lg"></i></a>
+        </li>
+        <li class="nav-btn">
+          <a href="#"><i class="fas fa-ellipsis-v fa-lg"></i></a>
+        </li>
+
+      </ul>
+      <div class="play-main">
+        <img src="https://github.com/Bonggwon/images/blob/main/img/sunhee_play_img.jpg?raw=true" class="play-main__img">
+        <div class="main__title">
+          <span>그대가 나를 사랑하신다면</span>
+          <span>이선희, 가수</span>
+        </div>
+        <div class="status-bar">
+          <div class="status-bar__time">
+            <span>1:56</span>
+            <span>2:21</span>
+          </div>
+          <progress class="status-bar__bar" max="100" value="60">60%</progress>
+        </div>
+        <div class="play-btns">
+          <a href="#" class="play-btns__repeat"><i class="fa-solid fa-repeat"></i></a>
+          <a href="#" class="play-btns__back"><i class="fa-solid fa-backward-step"></i></a>
+          <a href="#" class="play-btns__play"><i class="fa-solid fa-play"></i></a>
+          <a href="#" class="play-btns__forward"><i class="fa-solid fa-forward-step"></i></a>
+          <a href="#" class="play-btns__random"><i class="fa-solid fa-shuffle"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/4ba51cdd09.js" crossorigin="anonymous"></script>
+</body>
+</html>
